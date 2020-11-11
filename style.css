@@ -1,0 +1,15 @@
+#integrantes article {
+    margin: auto;
+}
+
+.div-person-img {
+    margin: auto;
+}
+
+.person-img {
+    border: 5px solid grey;
+    border-radius: 8px;
+    margin: auto;
+}
+
+@media(min-width: 768px) {}
