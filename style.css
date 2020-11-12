@@ -3,7 +3,14 @@
 }
 
 .div-person-img {
+    display: block;
+    width: 180px;
     margin: auto;
+    border: 2px solid black;
+}
+
+.individual p {
+    margin: 0 5vw;
 }
 
 .person-img {
@@ -12,4 +19,37 @@
     margin: auto;
 }
 
-@media(min-width: 768px) {}
+.redes {
+    margin-top: 15px;
+}
+
+@media(min-width: 768px) {
+    .integrante {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+    }
+    .div-person-img img {
+        width: 205px;
+        margin-left: 3vw;
+    }
+    .div-person-img {
+        padding-right: 0;
+        width: 205px;
+    }
+    .individual {
+        border: 2px solid black;
+        width: 600px;
+        display: flex;
+        flex-flow: column;
+        position: relative;
+        margin-right: 5vw;
+    }
+    .nombre,
+    .descripcion {
+        text-align: left;
+    }
+    .descripcion {
+        font-size: 14px;
+    }
+}
