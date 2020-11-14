@@ -6,7 +6,6 @@
     display: block;
     width: 180px;
     margin: auto;
-    border: 2px solid black;
 }
 
 .individual p {
@@ -24,32 +23,72 @@
 }
 
 @media(min-width: 768px) {
+    .general {
+        margin: 0 45px;
+        align-items: center;
+    }
     .integrante {
-        border: 2px solid black;
         display: flex;
         flex-direction: row;
+        margin: 20vh 0;
     }
-    .div-person-img img {
+    .integrante-r {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 20vh 0;
+    }
+    .integrante.div-person-img img {
         width: 205px;
         margin-left: 3vw;
+    }
+    .integrante-r.div-person-img img {
+        width: 205px;
+        margin-right: 3vw;
     }
     .div-person-img {
         padding-right: 0;
         width: 205px;
+        margin-left: 20px;
     }
     .individual {
-        border: 2px solid black;
         width: 600px;
+        height: 210px;
         display: flex;
         flex-flow: column;
         position: relative;
         margin-right: 5vw;
-    }
-    .nombre,
-    .descripcion {
+        flex-grow: 2;
+        padding: auto 0;
         text-align: left;
     }
-    .descripcion {
-        font-size: 14px;
+    .individual.descripcion {
+        justify-items: left;
+    }
+}
+
+@media (min-width:1200px) {
+    .div-person-img img {
+        width: 278px;
+        margin-left: 0;
+    }
+    .div-person-img {
+        padding-right: 0;
+        width: 278px;
+    }
+    .integrante {
+        margin-bottom: 45px;
+    }
+    .individual {
+        border: 2 px solid black;
+    }
+    .integrante.individual.descripcion {
+        font-size: 30px;
+    }
+    .redes {
+        flex-shrink: 1;
+        padding: 0;
+        width: 150px;
+        margin: auto;
+        margin-top: 15px;
     }
 }
