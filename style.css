@@ -3,17 +3,80 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-.container{
+
+#princi{
     border: 1px solid black;
 }
 
+
+#contenedor-1{
+    /*border: 1px solid black;*/
+    margin-top: 60px;
+    background-color: rgba(235, 235, 235, 0.87);
+    
+}
+
+.color{
+   padding: 0 100px 0 100px;
+   /*border: 1px solid black;*/
+   margin: 0 0 0 0;
+
+}
+
+.filas{
+    /*border: 1px solid black;*/
+    padding: 0 0 0 0;
+}
+
+.izqui{
+    padding-right: 22.5px ;
+}
+
+.dere{
+    padding-left: 22.5px ;
+}
+
+.fort-deb{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    
+}
+.parrafo{
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin-bottom: 60px;
+}
+
+
+
+/*estilo del footer*/
+
+#contenedor-2{
+    border: 1px solid black;
+   
+}
+
+
 #nom-group{
     margin-top: 30px;
+    color: gray;
    
+}
+
+
+#text-footer > li {
+    margin-top: 15px;
+   
+}
+
+#text-footer > li > a {
+    color: gray;
+    
 }
 
 #text-footer{
     margin-top: 25px;
-
+    margin-bottom: 60px;
 
 }
