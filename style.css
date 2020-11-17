@@ -80,3 +80,100 @@ body{
     margin-bottom: 60px;
 
 }
+
+
+/************** media queris *************************/
+
+@media(max-width: 768px) {
+    
+#princi{
+    border: 1px solid rgb(235, 14, 14);
+}
+
+
+#contenedor-1{
+    /*border: 1px solid black;*/
+    margin-top: 60px;
+    background-color: rgba(235, 235, 235, 0.87);
+    
+}
+
+.color{
+   padding: 0 0px 0 0px;
+   /*border: 1px solid black;*/
+   margin: 0 0 0 0;
+
+}
+
+.filas{
+    border: 1px solid black;
+    padding: 0 0 0 0;
+    
+}
+
+.izqui{
+    padding-right: 0px ;
+}
+
+.dere{
+    
+    padding-left: 0px ;
+    padding-bottom: 45px;
+}
+
+.fort-deb{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+}
+.parrafo{
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    padding: 0 30px 0 30px;
+}
+
+
+/* estilo footer en mobile*/
+#contenedor-2{
+    border: 1px solid black;
+   
+}
+
+
+#nom-group{
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+   
+    
+   
+}
+
+
+#text-footer > li {
+    margin-top: 0px;
+    text-align: center;
+   
+}
+
+#text-footer > li > a {
+    color: gray;
+    
+   
+    
+}
+
+#text-footer{
+    margin-top: 0px;
+    margin-bottom: 120px;
+    
+
+}
+
+
+
+
+
+}
