@@ -4,9 +4,9 @@ body{
 }
 
 
-#princi{
+/*#princi{
     border: 1px solid black;
-}
+}*/
 
 
 #contenedor-1{
@@ -40,6 +40,7 @@ body{
     text-align: center;
     padding-top: 45px;
     padding-bottom: 15px;
+    color: #099D8D;
     
 }
 .parrafo{
@@ -52,10 +53,10 @@ body{
 
 /*estilo del footer*/
 
-#contenedor-2{
+/*#contenedor-2{
     border: 1px solid black;
    
-}
+}*/
 
 
 #nom-group{
@@ -86,9 +87,9 @@ body{
 
 @media(max-width: 768px) {
     
-#princi{
+/*#princi{
     border: 1px solid rgb(235, 14, 14);
-}
+}*/
 
 
 #contenedor-1{
@@ -106,7 +107,7 @@ body{
 }
 
 .filas{
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     padding: 0 0 0 0;
     
 }
@@ -129,17 +130,17 @@ body{
 }
 .parrafo{
     text-align: center;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-bottom: 0px;
     padding: 0 30px 0 30px;
 }
 
 
 /* estilo footer en mobile*/
-#contenedor-2{
+/*#contenedor-2{
     border: 1px solid black;
    
-}
+}*/
 
 
 #nom-group{
