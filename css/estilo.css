@@ -7,22 +7,38 @@ body {
 }
 
 .fondo3{
-background-image: url(./../img/1.jpg);
+background-image: ;
 background-position: center;
 background-size: cover;
-
 }
+
+.img10 {
+background-image: url(./../img/2.jpeg);
+background-position: center;
+background-size: cover;
+height: 500px;
+position: absolute;
+top:48px;
+width: 100%;
+}
+
 .header_menu{
   height: 60px;
   
 }
+
+.fondo_img_1 {
+  width: 100%;
+}
 .menu {
-  max-width: 968px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
 
 .menu2 ul li{
   display: inline;
@@ -51,7 +67,7 @@ color: rgb(0, 182, 182);
   background-color: rgba(255, 255, 255, 0.8);
   padding: 15px 30px;
   position: relative;
-  top: 84%;
+  top: 82%;
 }
 
 @media screen and (max-width:768px){
