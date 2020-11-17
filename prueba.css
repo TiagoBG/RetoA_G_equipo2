@@ -1,0 +1,194 @@
+#contenedor {
+    height: 90vh;
+}
+
+.redes {
+    margin-left: 0;
+    margin-top: 5vh;
+}
+
+.descripcion {
+    width: 439px;
+}
+
+.integrante-r,
+.integrante {
+    margin-top: 15vh;
+}
+
+.integrante-r {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.integrante-r .div-imagen {
+    padding-left: 0;
+}
+
+.integrante-r p,
+.integrante-r h2 {
+    text-align: right;
+    margin-right: 2vw;
+}
+
+.integrante-r p {
+    margin-right: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    float: right;
+}
+
+.integrante-r .redes {
+    text-align: right;
+    margin-top: 25vh;
+}
+
+.div-imagen {
+    padding-left: 5vw;
+}
+
+.descripcion-final {
+    width: 439px;
+}
+
+@media(max-width:768px) {
+    #contenedor {
+        margin: auto;
+        text-align: center;
+        max-width: 768px;
+    }
+    .integrante-r {
+        width: 90%;
+        margin-left: 2vw;
+        padding-left: 3vw;
+        padding-bottom: 10vh;
+    }
+    .integrante-r .reverso {
+        margin-right: 2vw;
+        padding-right: 2vw;
+    }
+    .integrante {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .integrante img {
+        width: 205px;
+    }
+    .integrante .div-imagen {
+        margin-left: 2vw;
+    }
+    .integrante .descripcion,
+    .redes,
+    .integrante h2 {
+        text-align: left;
+    }
+    .integrante .descripcion {
+        padding-right: 5vw;
+    }
+}
+
+@media (max-width: 320px) {
+    #contenedor {
+        padding: 0;
+    }
+    .integrante,
+    .integrante-r {
+        display: flex;
+        flex-flow: column;
+        width: 100vw;
+    }
+    .integrante p {
+        width: 300px;
+        text-align: center;
+        padding: 0;
+        padding-left: 5vw;
+    }
+    .integrante-r h2,
+    .integrante h2,
+    .directo,
+    .reverso {
+        text-align: center;
+    }
+    .integrante-r p {
+        width: 300px;
+        text-align: center;
+        padding: 0;
+        padding-left: 10vw;
+    }
+    .integrante-r img {
+        width: 180px;
+    }
+    .integrante-r {
+        margin: 0;
+        margin-right: 0;
+    }
+    .integrante .redes,
+    .integrante-r .redes {
+        text-align: center;
+    }
+    .integrante-r .redes {
+        margin-top: 10vh;
+    }
+    .directo p {
+        text-align: center;
+    }
+    /*#contenedor {
+        margin: auto;
+    }
+    .integrante,
+    .integrante-r,
+    .reverso,
+    .directo,
+    .descripcion-final,
+    .descripcion,
+    .div-imagen {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .integrante img,
+    .integrante-r img {
+        width: 180px;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 40px;
+        transform: translate(-60px, -270px);
+    }
+    .integrante,
+    .integrante-r,
+    .reverso {
+        display: block;
+        margin-top: 70vh;
+        text-align: center;
+        width: 80%;
+        padding: 0;
+        border: 2px solid black;
+    }
+    .integrante-r {
+        display: block;
+        margin-left: 10vw;
+    }
+    .integrante-r .reverso {
+        padding-left: 3vw;
+        font-size: 12px;
+        margin-right: 0;
+        margin-left: 8vw;
+        text-align: center;
+    }
+    .reverso p {
+        text-align: center;
+    }
+    .directo {
+        max-width: 310px;
+        font-size: 12px;
+        margin-left: 10vw;
+    }
+    .directo p {
+        max-width: 100%;
+        text-align: center;
+        padding-left: 3vw;
+        margin-left: 5vw;
+    }*/
+}

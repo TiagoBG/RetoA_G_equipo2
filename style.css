@@ -81,8 +81,9 @@
     .individual {
         border: 2 px solid black;
     }
-    .integrante.individual.descripcion {
+    .integrante .individual .descripcion {
         font-size: 30px;
+        float: left;
     }
     .redes {
         flex-shrink: 1;
